@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Harassment and Bullying in the Legal Profession - Survey</title>
+</head>
+<body class="container">
+	<header>
+			<h1 id="title">Harassment and Bullying in the Legal Industry</h1>
+			<p id="description">Thank you for taking the time to participate in this survey. We hope to use the information obtained from this survey to provide a snapshot of harassment and bullying in the legal profession in order to inform relevant industry bodies. 
+			<br><br>We appreciate that the subject of this survey may be confronting. A list of resources is provided at the end of the survey.</p>
+	</header>
+	<div class="content">
+		<form id="survey-form">
+			<div class="inputs">
+				<label id="name-label"><h3>* Name:</h3></label>
+				<input type="text" name="Name" id="name" placeholder="Enter your name" required>
+			</div>
+			<div class="inputs">
+				<label id="email-label"><h3>* Email:</h3></label>
+				<input type="Email" name="Email" id="email" placeholder="Enter your email" required>
+			</div>
+			<div class="inputs">
+				<label id="number-label"><h3>* Age:</h3></label>
+				<input type="number" name="age" id="number" min="1" max="99" placeholder="Age" required>
+			</div>
+			<div class="inputs">
+				<h3 id="gender-label">* Gender:</h3>
+				<label for="male">
+					<input type="radio" id="male" name="gender" value="male" required checked="checked">  Male
+				</label>
+				<label for="female">
+					<input type="radio" id="female" name="gender" value="female" required>  Female
+				</label>
+				<label for="selfdescribe">
+					<input type="radio" id="selfdescribe" name="gender" value="selfdescribe" required>  Prefer to self-describe	
+				</label>
+			</div>
+			<div class="inputs">
+				<h3 id="workplace-label">* Which legal environment do you work in?</h3>
+				<br>
+				<select id="workplace" name="workplace" required>
+					<option disabled selected value>Select an option</option>
+					<option value="private-practice">Private Practice</option>
+					<option value="in-house">In-house</option>
+					<option value="government">Government</option>
+					<option value="education">Education</option>
+					<option value="judiciary">Judiciary</option>
+					<option value="community">Community</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+			<div class="inputs">
+				<h3 id="law-type">* Which areas of law do you mostly practice in?</h3>
+					<label>
+						<input type="checkbox" id="administrative" name="administrative" value="administrative"> Administrative
+					</label>
+					<label>
+						<input type="checkbox" id="ADR" name="ADR" value="ADR"> Alternative Dispute Resolution
+					</label>
+					<label>
+						<input type="checkbox" id="bankingfinance" name="bankingfinance" value="bankingfinance"> Banking/Finance
+					</label>
+					<label>
+						<input type="checkbox" id="civillit" name="civillit" value="civillit"> Civil Litigation
+					</label>
+					<label>
+						<input type="checkbox" id="commercial" name="commercial" value="commercial"> Commercial Law
+					</label>
+					<label>
+						<input type="checkbox" id="corporate" name="corporate" value="corporate"> Corporate Law
+					</label>
+					<label>
+						<input type="checkbox" id="criminal" name="criminal" value="criminal"> Criminal Law
+					</label>
+					<label>
+						<input type="checkbox" id="employment" name="employment" value="employment"> Employment Law
+					</label>
+					<label>
+						<input type="checkbox" id="environmental" name="environmental" value="environmental"> Environmental Law
+					</label>
+					<label>
+						<input type="checkbox" id="family" name="family" value="family">
+					 Family Law
+					</label>
+					<label>
+						<input type="checkbox" id="immigration" name="immigration" value="immigration"> Immigration Law
+					</label>
+					<label>
+						<input type="checkbox" id="ip" name="ip" value="ip"> Intellectual Property
+					</label>
+					<label>
+						<input type="checkbox" id="litigation" name="litigation" value="litigation"> Litigation (general)
+					</label>
+					<label>
+						<input type="checkbox" id="realestate" name="realestate" value="realestate"> Real Estate, Property and Conveyancing
+					</label>
+					<label>
+						<input type="checkbox" id="tax" name="tax" value="tax"> Taxation Law
+					</label>
+					<label>
+						<input type="checkbox" id="tradepractices" name="tradepractices" value="tradepractices"> Trade Practices/Competition Law
+					</label>
+					<label>
+						<input type="checkbox" id="wills" name="wills" value="wills"> Wills and Estates
+					</label>
+					<label>
+						<input type="checkbox" id="other" name="other" value="other"> Other
+					</label>					
+				</div>
+				<div class="inputs">
+					<label><h3>Tell us your story:</h3></label>
+					<textarea name="message" required placeholder="Tell us your story"></textarea>
+				</div>
+				<input class="button" type="submit" value="Submit" name="">
+		</form>
+	</div>
+	<footer>
+		<p>Copyright &copy David Vallance 2020</p>
+	</footer>
+</body>
+</html>

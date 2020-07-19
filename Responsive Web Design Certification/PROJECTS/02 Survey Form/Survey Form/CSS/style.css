@@ -1,0 +1,114 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+.container {
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	background-image: url('../images/law.jpg');
+	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	font-family: Trebuchet MS, helvetica, sans-serif;
+ 	color: black;
+ 	padding: 50px;
+}
+
+.content {
+	background-color: rgba(0, 0, 0, 0.6);
+	border-width: 5px;
+ 	border-color: black;
+ 	border-style: solid;
+ 	border-radius: 40px;
+ 	width: 90%;
+ 	margin: auto;
+ 	color: white;
+}
+
+body h1 {
+	padding: 20px;
+	width: 90%;
+	margin: auto;
+}
+
+header p {
+	font-style: italic;
+	padding: 0px 10px 30px 10px	;
+	width: 90%;
+	margin: auto;
+}
+
+#survey-form {
+	padding: 20px;
+	text-align: left;
+	width: 100%;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+#survey-form div > label {
+	display: block;
+	padding: 10px;
+}
+
+#survey-form input[type="text"], input[type="Number"], input[type="Email"], textarea, select{
+	padding:15px;
+	width:100%;
+	margin: auto;
+	max-width: 100%;
+	box-sizing: border-box;
+	border-radius: 20px;
+	border-color: #9c4c02;
+	border-width: 5px;
+}
+
+#survey-form .workplace {
+	padding-top: 10px;
+}
+
+.inputs, .inputs p {
+	padding: 15px 0 15px 0;
+	width: 100%;
+	text-align: left;
+}
+
+form {
+	width: 100%;
+	margin: auto;
+}
+
+form h3 {
+	font-weight: bold;
+	text-decoration: underline;
+	padding-top: 15px;
+}
+
+.button {
+	display: block;
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	background-color: #9c4c02;
+	border-color: white;
+	border-width: 5px;
+	border-radius: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+footer {
+	margin: 20px;
+	padding-top: 40px;
+	color: white;
+	font-weight: bold;
+}
+
+@media (max-width: 768px) {
+	.container {
+		width: 90%;
+		margin: auto;
+	}
+}
+
