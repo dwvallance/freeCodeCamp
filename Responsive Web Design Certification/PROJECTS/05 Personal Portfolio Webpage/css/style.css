@@ -1,0 +1,173 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: trebuchet ms, helvetica, sans-serif;;
+}
+
+#navbar {
+	background: #990397;
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999;
+	border-bottom: 3px #eba15b solid;
+}
+
+#navbar a {
+	padding: 15px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2em;
+	margin-right: 25px;
+}
+
+@media screen and (max-width: 678px) {
+	#navbar {
+		justify-content: center;
+		text-align: center;
+	}
+	#navbar a {
+		font-size: 1.2em;
+		padding-right: 0;
+	}
+}
+
+#welcome-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background: #3e3e3e;
+}
+
+#welcome-section h1 {
+	color: white;
+	text-transform: uppercase;
+	font-size: xx-large;
+	padding: 20px;
+}
+
+#welcome-section p {
+	font-style: italic;
+	color: white;
+	font-size: larger;
+}
+
+@media screen and (max-width: 678px) {
+	#welcome-section h1 {
+		text-align: center;
+	}
+
+	#welcome-section p {
+		text-align: center;
+	}
+}
+
+#projects {
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	background: #eba15b;
+	padding: 10rem 0 5rem 0;
+
+}
+
+#projects h1 {
+	text-transform: uppercase;
+	font-size: xx-large;
+	padding: 0 6rem 0 6rem;
+	border-bottom: 0.2rem solid white;
+	color: black;
+	text-align: center;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 4em;
+	padding-top: 40px;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.project-image {
+	width: 100%;
+}
+
+.grid a {
+	background-color: #3f3f3f;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+.project-title {
+	padding: 10px;
+}
+
+#contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background: #beedc0;
+	color: black;
+}
+
+#contact h1 {
+	color: black;
+	text-transform: uppercase;
+	font-size: xx-large;
+	padding: 20px;
+	text-align: center;
+}
+
+#contact p {
+	font-style: italic;
+	color: black;
+	font-size: larger;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#contact a {
+	text-decoration: none;
+	color: black;
+	padding: 15px;
+	font-size: large;
+}
+
+@media screen and (max-width: 678px) {
+	#contact a {
+		display: block;
+		text-align: center;
+		margin: auto;
+	}
+}
+
+footer {
+	background: #990397;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	border-top: 3px #eba15b solid;
+}
+
+footer p {
+	padding: 5px;
+	font-style: italic;
+}
