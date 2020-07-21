@@ -1,0 +1,63 @@
+.grid {
+	display: grid;
+	grid-template-columns: minmax(300px, auto) 1fr;
+	grid-template-areas: "navbar main-doc";
+	grid-gap: 20px;
+}
+
+header {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#navbar {
+	grid-area: navbar;
+	padding: 10px;
+	position: fixed;
+}
+
+#navbar .nav-link {
+	display: block;
+	text-decoration: none;
+	color: white;
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+	background-color: #3f3f3f;
+}
+
+#main-doc {
+	grid-area: main-doc;
+	padding: 10px;
+}
+
+#main-doc p {
+	text-align: left;
+	padding: 10px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  line-height: 1.5;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  background-color: #f7f7f7;
+  padding: 5px;
+  padding-left: 25px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 80%;
+}
+
+@media screen and (max-width: 678px) {
+	.grid {
+		grid-template-columns: 1fr;
+		grid-template-areas: "navbar" "main-doc";
+	}
+
+	#navbar {
+		position: inherit;
+	}
+}
